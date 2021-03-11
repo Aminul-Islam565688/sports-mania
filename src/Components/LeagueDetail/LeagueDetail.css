@@ -1,0 +1,63 @@
+.banner-logo {
+    width: 150px;
+    margin: auto;
+    display: block;
+    top: 50px;
+    position: relative;
+}
+.banner-container{
+    width: 900px;
+    margin:20px auto;
+}
+.banner-league{
+    padding: 15px;
+    color: black;
+    /* background: #3A42FF; */
+    background: white;
+    line-height: 13px;
+    display: flex;
+    border-radius: 10px;
+}
+.banner-detail{
+    width: 450px;
+    margin: 26px 3px;
+}
+.banner-img{
+    width: 450px;
+    margin: 40px 0 0 164px;
+    vertical-align: middle;
+}
+.banner-img img{
+    width: 350px;
+}
+.banner-container{
+    color: #ddd;
+}
+.banner-main{
+
+}
+.banner-icon{
+    position: relative;
+    top: 5px;
+}
+.social-icon{
+    margin: 0  0  0  365px;
+}
+.social-icon img{
+    width: 60px;
+}
+
+@media(max-width:860px){
+    .banner-league{
+        color: black;
+        /* background: #3A42FF; */
+        background: white;
+        border-radius: 10px;
+    }
+    .banner-detail{
+    }
+    .banner-img{
+    }
+    .banner-img img{
+    }
+}
