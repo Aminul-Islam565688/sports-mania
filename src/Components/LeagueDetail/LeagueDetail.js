@@ -53,7 +53,7 @@ const LeagueDetail = () => {
                                 <a href={detail.strTwitter}>
                                     <img src={twitter} alt=""/>
                                 </a>
-                                <a target='_blank' href={detail.strYoutube}>
+                                <a href={detail.strYoutube}>
                                     <img src={youtube} alt=""/>
                                 </a>
                             </div>
