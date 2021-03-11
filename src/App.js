@@ -4,10 +4,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import LeagueDetail from './Components/LeagueDetail/LeagueDetail';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
