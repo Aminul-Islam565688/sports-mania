@@ -35,3 +35,19 @@ button{
     top: 6px;
     left: 8px;
 }
+@media(max-width:860px){
+    img.league-logo {
+        width: 160px;
+    }
+    .single-league-cart{
+        width: 370px;
+        height: fit-content;
+    }
+    .single-league-cart h4{
+        margin-top: 18px;
+        font-size: 25px;
+    }
+    .single-league-cart p{
+        font-size: 19px;
+    }
+}

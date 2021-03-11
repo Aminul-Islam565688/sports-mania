@@ -12,7 +12,6 @@
 .banner-league{
     padding: 15px;
     color: black;
-    /* background: #3A42FF; */
     background: white;
     line-height: 13px;
     display: flex;
@@ -33,9 +32,6 @@
 .banner-container{
     color: #ddd;
 }
-.banner-main{
-
-}
 .banner-icon{
     position: relative;
     top: 5px;
@@ -48,16 +44,20 @@
 }
 
 @media(max-width:860px){
-    .banner-league{
-        color: black;
-        /* background: #3A42FF; */
-        background: white;
-        border-radius: 10px;
+    .banner-container{
+        width: 450px;
     }
-    .banner-detail{
+    .banner-league{
+        display: block;
     }
     .banner-img{
+        width: 400px;
+        margin: 40px 0 0 4px;
     }
     .banner-img img{
+        width: 410px;
+    }
+    .social-icon{
+        margin: 0  0  0  125px;
     }
 }
